@@ -1,0 +1,2 @@
+// ArXiv API address
+APIUrl = 'http://export.arxiv.org/api/query'

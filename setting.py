@@ -43,7 +43,7 @@ class Settings:
             settings = f.read()
             settings = settings.split('\n')
             for line in settings:
-                if re.search(pattern,line):
+                if re.search(pattern,line) or (len(line) == 0):
                     continue
                 line=line.split(' ')
                 self._settings[line[0]]=line[2]
