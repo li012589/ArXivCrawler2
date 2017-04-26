@@ -1,2 +1,5 @@
 // ArXiv API address
 APIUrl = 'http://export.arxiv.org/api/query'
+// Raw API parameters, empty to skip
+methodName = ''
+methodParameters = {}
